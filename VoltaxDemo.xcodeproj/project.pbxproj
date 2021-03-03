@@ -1,0 +1,948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161E360025C2BA5300754A53 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E35FF25C2BA5300754A53 /* VideoViewController.swift */; };
+		161E360125C2BA5300754A53 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E35FF25C2BA5300754A53 /* VideoViewController.swift */; };
+		161E365C25D94F0900754A53 /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E365B25D94F0800754A53 /* ArticleTableViewController.swift */; };
+		161E365D25D94F0900754A53 /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E365B25D94F0800754A53 /* ArticleTableViewController.swift */; };
+		165FC9BD25BD9A160019C5D9 /* ArticleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FC9BC25BD9A160019C5D9 /* ArticleCollectionViewController.swift */; };
+		165FC9C525BD9C890019C5D9 /* ArticleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FC9BC25BD9A160019C5D9 /* ArticleCollectionViewController.swift */; };
+		1679BE0125B4685D00DA176C /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F3EA8725B0787E009ECB91 /* Dev-Info.plist */; };
+		16F3E9A325B06F5E009ECB91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A225B06F5E009ECB91 /* AppDelegate.swift */; };
+		16F3E9A525B06F5E009ECB91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A425B06F5E009ECB91 /* SceneDelegate.swift */; };
+		16F3E9A725B06F5E009ECB91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A625B06F5E009ECB91 /* ViewController.swift */; };
+		16F3E9AA25B06F5E009ECB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9A825B06F5E009ECB91 /* Main.storyboard */; };
+		16F3E9AC25B06F60009ECB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9AB25B06F60009ECB91 /* Assets.xcassets */; };
+		16F3E9AF25B06F60009ECB91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9AD25B06F60009ECB91 /* LaunchScreen.storyboard */; };
+		16F3E9BA25B06F60009ECB91 /* VoltaxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9B925B06F60009ECB91 /* VoltaxDemoTests.swift */; };
+		16F3E9C525B06F60009ECB91 /* VoltaxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9C425B06F60009ECB91 /* VoltaxDemoUITests.swift */; };
+		16F3EA3825B0716E009ECB91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A625B06F5E009ECB91 /* ViewController.swift */; };
+		16F3EA3925B0716E009ECB91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A225B06F5E009ECB91 /* AppDelegate.swift */; };
+		16F3EA3A25B0716E009ECB91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A425B06F5E009ECB91 /* SceneDelegate.swift */; };
+		16F3EA3E25B0716E009ECB91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9AD25B06F60009ECB91 /* LaunchScreen.storyboard */; };
+		16F3EA3F25B0716E009ECB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9AB25B06F60009ECB91 /* Assets.xcassets */; };
+		16F3EA4025B0716E009ECB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9A825B06F5E009ECB91 /* Main.storyboard */; };
+		16F3EA4D25B071F7009ECB91 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F3EA4C25B071F6009ECB91 /* SystemConfiguration.framework */; };
+		1BB7E318457D44BB322EB888 /* Pods_VoltaxDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681273222042CA359AFAF01D /* Pods_VoltaxDemoTests.framework */; };
+		4DEAD113AA8FD28D7F40ED10 /* Pods_VoltaxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4053550F29AF893D327E46 /* Pods_VoltaxDemo.framework */; };
+		8239C40D3902296AE7951123 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324A4CBA9F22AF2AD11447B0 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16F3E9B625B06F60009ECB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F3E99725B06F5E009ECB91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F3E99E25B06F5E009ECB91;
+			remoteInfo = VoltaxDemo;
+		};
+		16F3E9C125B06F60009ECB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F3E99725B06F5E009ECB91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F3E99E25B06F5E009ECB91;
+			remoteInfo = VoltaxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		166074AF25ED3DA1006A47BA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3EA4125B0716E009ECB91 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F3BCB854D5444988B80BC0B /* Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		161E35FF25C2BA5300754A53 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		161E365B25D94F0800754A53 /* ArticleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
+		165FC9BC25BD9A160019C5D9 /* ArticleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCollectionViewController.swift; sourceTree = "<group>"; };
+		16F3E99F25B06F5E009ECB91 /* VoltaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F3E9A225B06F5E009ECB91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16F3E9A425B06F5E009ECB91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16F3E9A625B06F5E009ECB91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16F3E9A925B06F5E009ECB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16F3E9AB25B06F60009ECB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16F3E9AE25B06F60009ECB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16F3E9B025B06F60009ECB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F3E9B525B06F60009ECB91 /* VoltaxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltaxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F3E9B925B06F60009ECB91 /* VoltaxDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaxDemoTests.swift; sourceTree = "<group>"; };
+		16F3E9BB25B06F60009ECB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F3E9C025B06F60009ECB91 /* VoltaxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltaxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F3E9C425B06F60009ECB91 /* VoltaxDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaxDemoUITests.swift; sourceTree = "<group>"; };
+		16F3E9C625B06F60009ECB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F3EA4625B0716E009ECB91 /* VoltaxDemo-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoltaxDemo-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F3EA4C25B071F6009ECB91 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		16F3EA8725B0787E009ECB91 /* Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dev-Info.plist"; sourceTree = "<group>"; };
+		324A4CBA9F22AF2AD11447B0 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltaxDemo_VoltaxDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC3A5FCA6D932BCA3A0ABFB /* Pods-VoltaxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-VoltaxDemoTests/Pods-VoltaxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C88817F1C71F1C6455D3F47 /* Pods-VoltaxDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemoTests.release.xcconfig"; path = "Target Support Files/Pods-VoltaxDemoTests/Pods-VoltaxDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		681273222042CA359AFAF01D /* Pods_VoltaxDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltaxDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4053550F29AF893D327E46 /* Pods_VoltaxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltaxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773709C89D4033FCB06F9E4C /* Pods-VoltaxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo.debug.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF5CCB51416D54EEF085501 /* Pods-VoltaxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo.release.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BE85757684C5A99ECA6C6BA3 /* Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F3E99C25B06F5E009ECB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F3EA4D25B071F7009ECB91 /* SystemConfiguration.framework in Frameworks */,
+				4DEAD113AA8FD28D7F40ED10 /* Pods_VoltaxDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3E9B225B06F60009ECB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB7E318457D44BB322EB888 /* Pods_VoltaxDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3E9BD25B06F60009ECB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8239C40D3902296AE7951123 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3EA3B25B0716E009ECB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161E35F925C2B91C00754A53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				165FC9BC25BD9A160019C5D9 /* ArticleCollectionViewController.swift */,
+				161E35FF25C2BA5300754A53 /* VideoViewController.swift */,
+				161E365B25D94F0800754A53 /* ArticleTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		16F3E99625B06F5E009ECB91 = {
+			isa = PBXGroup;
+			children = (
+				16F3E9A125B06F5E009ECB91 /* VoltaxDemo */,
+				16F3E9B825B06F60009ECB91 /* VoltaxDemoTests */,
+				16F3E9C325B06F60009ECB91 /* VoltaxDemoUITests */,
+				16F3E9A025B06F5E009ECB91 /* Products */,
+				16F3EA2E25B070DD009ECB91 /* Frameworks */,
+				636251A1582BF77901E81311 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		16F3E9A025B06F5E009ECB91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F3E99F25B06F5E009ECB91 /* VoltaxDemo.app */,
+				16F3E9B525B06F60009ECB91 /* VoltaxDemoTests.xctest */,
+				16F3E9C025B06F60009ECB91 /* VoltaxDemoUITests.xctest */,
+				16F3EA4625B0716E009ECB91 /* VoltaxDemo-Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16F3E9A125B06F5E009ECB91 /* VoltaxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				161E35F925C2B91C00754A53 /* ViewControllers */,
+				16F3EA8225B07809009ECB91 /* Resources */,
+				16F3E9A225B06F5E009ECB91 /* AppDelegate.swift */,
+				16F3E9A425B06F5E009ECB91 /* SceneDelegate.swift */,
+				16F3E9A625B06F5E009ECB91 /* ViewController.swift */,
+				16F3E9A825B06F5E009ECB91 /* Main.storyboard */,
+				16F3E9AB25B06F60009ECB91 /* Assets.xcassets */,
+				16F3E9AD25B06F60009ECB91 /* LaunchScreen.storyboard */,
+			);
+			path = VoltaxDemo;
+			sourceTree = "<group>";
+		};
+		16F3E9B825B06F60009ECB91 /* VoltaxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				16F3E9B925B06F60009ECB91 /* VoltaxDemoTests.swift */,
+				16F3E9BB25B06F60009ECB91 /* Info.plist */,
+			);
+			path = VoltaxDemoTests;
+			sourceTree = "<group>";
+		};
+		16F3E9C325B06F60009ECB91 /* VoltaxDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16F3E9C425B06F60009ECB91 /* VoltaxDemoUITests.swift */,
+				16F3E9C625B06F60009ECB91 /* Info.plist */,
+			);
+			path = VoltaxDemoUITests;
+			sourceTree = "<group>";
+		};
+		16F3EA2E25B070DD009ECB91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F3EA4C25B071F6009ECB91 /* SystemConfiguration.framework */,
+				6D4053550F29AF893D327E46 /* Pods_VoltaxDemo.framework */,
+				324A4CBA9F22AF2AD11447B0 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework */,
+				681273222042CA359AFAF01D /* Pods_VoltaxDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16F3EA8225B07809009ECB91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16F3E9B025B06F60009ECB91 /* Info.plist */,
+				16F3EA8725B0787E009ECB91 /* Dev-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		636251A1582BF77901E81311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				773709C89D4033FCB06F9E4C /* Pods-VoltaxDemo.debug.xcconfig */,
+				9BF5CCB51416D54EEF085501 /* Pods-VoltaxDemo.release.xcconfig */,
+				BE85757684C5A99ECA6C6BA3 /* Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig */,
+				0F3BCB854D5444988B80BC0B /* Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig */,
+				4BC3A5FCA6D932BCA3A0ABFB /* Pods-VoltaxDemoTests.debug.xcconfig */,
+				5C88817F1C71F1C6455D3F47 /* Pods-VoltaxDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16F3E99E25B06F5E009ECB91 /* VoltaxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F3E9C925B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemo" */;
+			buildPhases = (
+				070D6300DEECB3D8BB02F302 /* [CP] Check Pods Manifest.lock */,
+				16F3E99B25B06F5E009ECB91 /* Sources */,
+				16F3E99C25B06F5E009ECB91 /* Frameworks */,
+				16F3E99D25B06F5E009ECB91 /* Resources */,
+				16F3EA5325B07333009ECB91 /* Framework thinning script */,
+				166074AF25ED3DA1006A47BA /* Embed Frameworks */,
+				ECC06C44730FBBB2E1D1B2B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoltaxDemo;
+			productName = VoltaxDemo;
+			productReference = 16F3E99F25B06F5E009ECB91 /* VoltaxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16F3E9B425B06F60009ECB91 /* VoltaxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F3E9CC25B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemoTests" */;
+			buildPhases = (
+				F039656F71A709B1EB7B59DF /* [CP] Check Pods Manifest.lock */,
+				16F3E9B125B06F60009ECB91 /* Sources */,
+				16F3E9B225B06F60009ECB91 /* Frameworks */,
+				16F3E9B325B06F60009ECB91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F3E9B725B06F60009ECB91 /* PBXTargetDependency */,
+			);
+			name = VoltaxDemoTests;
+			productName = VoltaxDemoTests;
+			productReference = 16F3E9B525B06F60009ECB91 /* VoltaxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16F3E9BF25B06F60009ECB91 /* VoltaxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F3E9CF25B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemoUITests" */;
+			buildPhases = (
+				4C53A7F70C2FCE96FAC06CE0 /* [CP] Check Pods Manifest.lock */,
+				16F3E9BC25B06F60009ECB91 /* Sources */,
+				16F3E9BD25B06F60009ECB91 /* Frameworks */,
+				16F3E9BE25B06F60009ECB91 /* Resources */,
+				51DF7F87F65103A5C4A38194 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F3E9C225B06F60009ECB91 /* PBXTargetDependency */,
+			);
+			name = VoltaxDemoUITests;
+			productName = VoltaxDemoUITests;
+			productReference = 16F3E9C025B06F60009ECB91 /* VoltaxDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		16F3EA3625B0716E009ECB91 /* VoltaxDemo-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F3EA4325B0716E009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemo-Dev" */;
+			buildPhases = (
+				16F3EA3725B0716E009ECB91 /* Sources */,
+				16F3EA3B25B0716E009ECB91 /* Frameworks */,
+				16F3EA3D25B0716E009ECB91 /* Resources */,
+				16F3EA4125B0716E009ECB91 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VoltaxDemo-Dev";
+			productName = VoltaxDemo;
+			productReference = 16F3EA4625B0716E009ECB91 /* VoltaxDemo-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16F3E99725B06F5E009ECB91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					16F3E99E25B06F5E009ECB91 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					16F3E9B425B06F60009ECB91 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 16F3E99E25B06F5E009ECB91;
+					};
+					16F3E9BF25B06F60009ECB91 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 16F3E99E25B06F5E009ECB91;
+					};
+				};
+			};
+			buildConfigurationList = 16F3E99A25B06F5E009ECB91 /* Build configuration list for PBXProject "VoltaxDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16F3E99625B06F5E009ECB91;
+			productRefGroup = 16F3E9A025B06F5E009ECB91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F3E99E25B06F5E009ECB91 /* VoltaxDemo */,
+				16F3EA3625B0716E009ECB91 /* VoltaxDemo-Dev */,
+				16F3E9B425B06F60009ECB91 /* VoltaxDemoTests */,
+				16F3E9BF25B06F60009ECB91 /* VoltaxDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16F3E99D25B06F5E009ECB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F3E9AF25B06F60009ECB91 /* LaunchScreen.storyboard in Resources */,
+				16F3E9AC25B06F60009ECB91 /* Assets.xcassets in Resources */,
+				16F3E9AA25B06F5E009ECB91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3E9B325B06F60009ECB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3E9BE25B06F60009ECB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3EA3D25B0716E009ECB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1679BE0125B4685D00DA176C /* Dev-Info.plist in Resources */,
+				16F3EA3E25B0716E009ECB91 /* LaunchScreen.storyboard in Resources */,
+				16F3EA3F25B0716E009ECB91 /* Assets.xcassets in Resources */,
+				16F3EA4025B0716E009ECB91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070D6300DEECB3D8BB02F302 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoltaxDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16F3EA5325B07333009ECB91 /* Framework thinning script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Framework thinning script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# https://stackoverflow.com/questions/46404236/failed-to-verify-bitcode-while-exporting-archive-for-ad-hoc-distribution-tried\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
+		};
+		4C53A7F70C2FCE96FAC06CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoltaxDemo-VoltaxDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DF7F87F65103A5C4A38194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC06C44730FBBB2E1D1B2B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F039656F71A709B1EB7B59DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoltaxDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F3E99B25B06F5E009ECB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F3E9A725B06F5E009ECB91 /* ViewController.swift in Sources */,
+				16F3E9A325B06F5E009ECB91 /* AppDelegate.swift in Sources */,
+				16F3E9A525B06F5E009ECB91 /* SceneDelegate.swift in Sources */,
+				161E360025C2BA5300754A53 /* VideoViewController.swift in Sources */,
+				161E365C25D94F0900754A53 /* ArticleTableViewController.swift in Sources */,
+				165FC9BD25BD9A160019C5D9 /* ArticleCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3E9B125B06F60009ECB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F3E9BA25B06F60009ECB91 /* VoltaxDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3E9BC25B06F60009ECB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F3E9C525B06F60009ECB91 /* VoltaxDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3EA3725B0716E009ECB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F3EA3825B0716E009ECB91 /* ViewController.swift in Sources */,
+				16F3EA3925B0716E009ECB91 /* AppDelegate.swift in Sources */,
+				16F3EA3A25B0716E009ECB91 /* SceneDelegate.swift in Sources */,
+				161E360125C2BA5300754A53 /* VideoViewController.swift in Sources */,
+				161E365D25D94F0900754A53 /* ArticleTableViewController.swift in Sources */,
+				165FC9C525BD9C890019C5D9 /* ArticleCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16F3E9B725B06F60009ECB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F3E99E25B06F5E009ECB91 /* VoltaxDemo */;
+			targetProxy = 16F3E9B625B06F60009ECB91 /* PBXContainerItemProxy */;
+		};
+		16F3E9C225B06F60009ECB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F3E99E25B06F5E009ECB91 /* VoltaxDemo */;
+			targetProxy = 16F3E9C125B06F60009ECB91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16F3E9A825B06F5E009ECB91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F3E9A925B06F5E009ECB91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16F3E9AD25B06F60009ECB91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F3E9AE25B06F60009ECB91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16F3E9C725B06F60009ECB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		16F3E9C825B06F60009ECB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		16F3E9CA25B06F60009ECB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773709C89D4033FCB06F9E4C /* Pods-VoltaxDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q72ZK24LD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = VoltaxDemo/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minutemedia.VoltaxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16F3E9CB25B06F60009ECB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF5CCB51416D54EEF085501 /* Pods-VoltaxDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q72ZK24LD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = VoltaxDemo/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minutemedia.VoltaxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16F3E9CD25B06F60009ECB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC3A5FCA6D932BCA3A0ABFB /* Pods-VoltaxDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltaxDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoltaxDemo.app/VoltaxDemo";
+			};
+			name = Debug;
+		};
+		16F3E9CE25B06F60009ECB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C88817F1C71F1C6455D3F47 /* Pods-VoltaxDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltaxDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoltaxDemo.app/VoltaxDemo";
+			};
+			name = Release;
+		};
+		16F3E9D025B06F60009ECB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE85757684C5A99ECA6C6BA3 /* Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltaxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoltaxDemo;
+			};
+			name = Debug;
+		};
+		16F3E9D125B06F60009ECB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3BCB854D5444988B80BC0B /* Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltaxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoltaxDemo;
+			};
+			name = Release;
+		};
+		16F3EA4425B0716E009ECB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q72ZK24LD;
+				INFOPLIST_FILE = "VoltaxDemo/Resources/Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16F3EA4525B0716E009ECB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q72ZK24LD;
+				INFOPLIST_FILE = "VoltaxDemo/Resources/Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F3E99A25B06F5E009ECB91 /* Build configuration list for PBXProject "VoltaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F3E9C725B06F60009ECB91 /* Debug */,
+				16F3E9C825B06F60009ECB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F3E9C925B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F3E9CA25B06F60009ECB91 /* Debug */,
+				16F3E9CB25B06F60009ECB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F3E9CC25B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F3E9CD25B06F60009ECB91 /* Debug */,
+				16F3E9CE25B06F60009ECB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F3E9CF25B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F3E9D025B06F60009ECB91 /* Debug */,
+				16F3E9D125B06F60009ECB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F3EA4325B0716E009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemo-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F3EA4425B0716E009ECB91 /* Debug */,
+				16F3EA4525B0716E009ECB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16F3E99725B06F5E009ECB91 /* Project object */;
+}

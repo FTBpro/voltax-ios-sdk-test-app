@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZWo-e2-PL8">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VoltaxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voltax Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAE-ez-UqM">
+                                <rect key="frame" x="150" y="84" width="114.33333333333331" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cye-jv-uDE">
+                                <rect key="frame" x="95" y="245" width="224" height="30"/>
+                                <state key="normal" title="MMVideoView in Collection View"/>
+                                <connections>
+                                    <segue destination="aY5-Dz-Tiq" kind="show" id="diy-oo-sgA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7U-kZ-EUW">
+                                <rect key="frame" x="81.666666666666686" y="191" width="251" height="30"/>
+                                <state key="normal" title="16:9 MMVideoView in container view"/>
+                                <connections>
+                                    <segue destination="Hpg-TO-uSk" kind="show" id="WR3-Sn-Cq1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVx-uk-na8">
+                                <rect key="frame" x="111" y="299" width="192" height="30"/>
+                                <state key="normal" title="MMVideoView in Table View"/>
+                                <connections>
+                                    <segue destination="Lmm-yz-4cz" kind="show" id="W6j-dC-pjh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cye-jv-uDE" firstAttribute="top" secondItem="V7U-kZ-EUW" secondAttribute="bottom" constant="24" id="5nD-eg-1sE"/>
+                            <constraint firstItem="V7U-kZ-EUW" firstAttribute="top" secondItem="tAE-ez-UqM" secondAttribute="bottom" constant="84" id="Jzm-Z8-Aij"/>
+                            <constraint firstItem="fVx-uk-na8" firstAttribute="top" secondItem="Cye-jv-uDE" secondAttribute="bottom" constant="24" id="MfE-Ho-2Ml"/>
+                            <constraint firstItem="tAE-ez-UqM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aqf-KC-bH1"/>
+                            <constraint firstItem="V7U-kZ-EUW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hkL-WZ-DAy"/>
+                            <constraint firstItem="tAE-ez-UqM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="hnl-R1-JcH"/>
+                            <constraint firstItem="fVx-uk-na8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iLO-64-OfT"/>
+                            <constraint firstItem="Cye-jv-uDE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ofK-MJ-7gj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="z8Q-Rr-SdO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="584"/>
+        </scene>
+        <!--Article Collection View Controller-->
+        <scene sceneID="ud8-Gv-A6D">
+            <objects>
+                <collectionViewController id="aY5-Dz-Tiq" customClass="ArticleCollectionViewController" customModule="VoltaxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="7bC-ff-clg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sQS-uF-RkK">
+                            <size key="itemSize" width="414" height="247"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imageHeaderCollectionCell" id="qkp-bS-nMY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="articleImage" translatesAutoresizingMaskIntoConstraints="NO" id="nHP-Sg-Ejw">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Switch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6B-0Q-VLc">
+                                            <rect key="frame" x="8" y="214" width="110" height="25"/>
+                                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="0jd-rF-Kn6"/>
+                                                <constraint firstAttribute="width" constant="110" id="OAs-PL-vEF"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="nHP-Sg-Ejw" secondAttribute="bottom" id="1pt-Cb-i9U"/>
+                                    <constraint firstItem="s6B-0Q-VLc" firstAttribute="leading" secondItem="qkp-bS-nMY" secondAttribute="leading" constant="8" id="A1K-h9-rjh"/>
+                                    <constraint firstItem="nHP-Sg-Ejw" firstAttribute="top" secondItem="qkp-bS-nMY" secondAttribute="top" id="Mh1-sY-6SW"/>
+                                    <constraint firstAttribute="bottom" secondItem="s6B-0Q-VLc" secondAttribute="bottom" constant="8" id="flB-7X-CgG"/>
+                                    <constraint firstAttribute="trailing" secondItem="nHP-Sg-Ejw" secondAttribute="trailing" id="sO9-Ny-Ynw"/>
+                                    <constraint firstItem="nHP-Sg-Ejw" firstAttribute="leading" secondItem="qkp-bS-nMY" secondAttribute="leading" id="wkl-0u-7x3"/>
+                                </constraints>
+                            </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="textHeaderCollectionCell" id="ZGp-ek-L54">
+                                <rect key="frame" x="0.0" y="257" width="414" height="247"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ii-6R-Hlw">
+                                            <rect key="frame" x="16" y="16" width="382" height="21"/>
+                                            <string key="text">FIFA 21: Ultimate Team TOTY revealed
+</string>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93p-Mh-d7E">
+                                            <rect key="frame" x="16" y="192.66666666666666" width="382" height="38.333333333333343"/>
+                                            <string key="text">By Tom Gott
+Jan 22, 2021, 6:00 PM GMT</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="93p-Mh-d7E" secondAttribute="trailing" constant="16" id="6xB-hr-Zlw"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Ii-6R-Hlw" secondAttribute="trailing" constant="16" id="UJV-Rp-YOP"/>
+                                    <constraint firstItem="2Ii-6R-Hlw" firstAttribute="top" secondItem="ZGp-ek-L54" secondAttribute="top" constant="16" id="ary-JM-sUe"/>
+                                    <constraint firstItem="2Ii-6R-Hlw" firstAttribute="leading" secondItem="ZGp-ek-L54" secondAttribute="leading" constant="16" id="dPu-6S-uae"/>
+                                    <constraint firstAttribute="bottom" secondItem="93p-Mh-d7E" secondAttribute="bottom" constant="16" id="iAR-XH-ClJ"/>
+                                    <constraint firstItem="93p-Mh-d7E" firstAttribute="leading" secondItem="ZGp-ek-L54" secondAttribute="leading" constant="16" id="iVy-f9-9t9"/>
+                                </constraints>
+                            </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="contentCollectionCell" id="K31-bT-OLE">
+                                <rect key="frame" x="0.0" y="514" width="414" height="247"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuo-cX-lDe">
+                                            <rect key="frame" x="16" y="16" width="382" height="324.66666666666669"/>
+                                            <string key="text">The waiting is over. After a few weeks of voting, the FIFA 21 Ultimate Team Team of the Year is finally here.
+
+Over 10 million fans of the game voted from 185 countries, selecting 11 players who they felt performed better than anybody else on the planet during 2020. Lionel Messi is the star omission from the side, as is Neymar, but there are places for Robert Lewandowski, Bruno Fernandes and Kylian Mbappe.
+
+The player's final ratings have not yet been disclosed, but you can be assured that they will be awarded some of the craziest cards you're ever likely to see on FIFA 21.</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="yuo-cX-lDe" firstAttribute="top" secondItem="K31-bT-OLE" secondAttribute="top" constant="16" id="VRN-Xs-DAE"/>
+                                    <constraint firstItem="yuo-cX-lDe" firstAttribute="leading" secondItem="K31-bT-OLE" secondAttribute="leading" constant="16" id="VeR-PN-Suq"/>
+                                    <constraint firstAttribute="trailing" secondItem="yuo-cX-lDe" secondAttribute="trailing" constant="16" id="oou-gP-XEx"/>
+                                </constraints>
+                            </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="mmWrapperCollectionCell" id="5Ew-dZ-oUj">
+                                <rect key="frame" x="0.0" y="771" width="414" height="247"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="aY5-Dz-Tiq" id="G1b-u6-Zro"/>
+                            <outlet property="delegate" destination="aY5-Dz-Tiq" id="IKa-ou-aPy"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="OS4-mU-ndC"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u0w-t6-Atc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="584"/>
+        </scene>
+        <!--Article Table View Controller-->
+        <scene sceneID="4fy-Tr-r4y">
+            <objects>
+                <tableViewController id="Lmm-yz-4cz" customClass="ArticleTableViewController" customModule="VoltaxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="98I-SA-SZg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageHeaderTableViewCell" id="ZS9-zm-TSb">
+                                <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZS9-zm-TSb" id="u1P-es-ybv">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="articleImage" translatesAutoresizingMaskIntoConstraints="NO" id="QSO-JY-q2F">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Switch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ap-M1-tOT">
+                                            <rect key="frame" x="8" y="167" width="110" height="25"/>
+                                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="l0a-bc-pdd"/>
+                                                <constraint firstAttribute="height" constant="25" id="tm7-xI-dgF"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="9Ap-M1-tOT" secondAttribute="bottom" constant="8" id="2J3-Ji-ENq"/>
+                                        <constraint firstAttribute="trailing" secondItem="QSO-JY-q2F" secondAttribute="trailing" id="73z-Jx-cdP"/>
+                                        <constraint firstAttribute="bottom" secondItem="QSO-JY-q2F" secondAttribute="bottom" id="JfS-kM-Efp"/>
+                                        <constraint firstItem="QSO-JY-q2F" firstAttribute="leading" secondItem="u1P-es-ybv" secondAttribute="leading" id="PnS-4y-WKO"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9Ap-M1-tOT" secondAttribute="trailing" constant="20" symbolic="YES" id="VIQ-CX-LMs"/>
+                                        <constraint firstItem="QSO-JY-q2F" firstAttribute="top" secondItem="u1P-es-ybv" secondAttribute="top" id="XEW-cP-cFa"/>
+                                        <constraint firstItem="9Ap-M1-tOT" firstAttribute="leading" secondItem="u1P-es-ybv" secondAttribute="leading" constant="8" id="fhE-5e-XWg"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="textHeaderTableViewCell" id="j1D-2h-3F5">
+                                <rect key="frame" x="0.0" y="228" width="414" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j1D-2h-3F5" id="JtC-IL-gDM">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDi-uA-rvh">
+                                            <rect key="frame" x="16" y="16" width="382" height="21"/>
+                                            <string key="text">FIFA 21: Ultimate Team TOTY revealed
+</string>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAq-J8-gSX">
+                                            <rect key="frame" x="16" y="145.66666666666666" width="382" height="38.333333333333343"/>
+                                            <string key="text">By Tom Gott
+Jan 22, 2021, 6:00 PM GMT</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="jDi-uA-rvh" secondAttribute="trailing" constant="16" id="3dI-6X-6qF"/>
+                                        <constraint firstItem="TAq-J8-gSX" firstAttribute="leading" secondItem="JtC-IL-gDM" secondAttribute="leading" constant="16" id="JVH-tB-V28"/>
+                                        <constraint firstItem="jDi-uA-rvh" firstAttribute="top" secondItem="JtC-IL-gDM" secondAttribute="top" constant="16" id="MDJ-el-DdX"/>
+                                        <constraint firstAttribute="bottom" secondItem="TAq-J8-gSX" secondAttribute="bottom" constant="16" id="WcO-jk-7ib"/>
+                                        <constraint firstAttribute="trailing" secondItem="TAq-J8-gSX" secondAttribute="trailing" constant="16" id="hcC-BC-0gh"/>
+                                        <constraint firstItem="jDi-uA-rvh" firstAttribute="leading" secondItem="JtC-IL-gDM" secondAttribute="leading" constant="16" id="rBQ-6A-5ab"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="contentTableViewCell" id="0C2-ow-dFH">
+                                <rect key="frame" x="0.0" y="428" width="414" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0C2-ow-dFH" id="NCT-DD-YIG">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p93-3o-ZtF">
+                                            <rect key="frame" x="16" y="16" width="382" height="324.66666666666669"/>
+                                            <string key="text">The waiting is over. After a few weeks of voting, the FIFA 21 Ultimate Team Team of the Year is finally here.
+
+Over 10 million fans of the game voted from 185 countries, selecting 11 players who they felt performed better than anybody else on the planet during 2020. Lionel Messi is the star omission from the side, as is Neymar, but there are places for Robert Lewandowski, Bruno Fernandes and Kylian Mbappe.
+
+The player's final ratings have not yet been disclosed, but you can be assured that they will be awarded some of the craziest cards you're ever likely to see on FIFA 21.</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="p93-3o-ZtF" firstAttribute="leading" secondItem="NCT-DD-YIG" secondAttribute="leading" constant="16" id="0Ke-lm-KfX"/>
+                                        <constraint firstAttribute="trailing" secondItem="p93-3o-ZtF" secondAttribute="trailing" constant="16" id="AJY-hC-fjZ"/>
+                                        <constraint firstItem="p93-3o-ZtF" firstAttribute="top" secondItem="NCT-DD-YIG" secondAttribute="top" constant="16" id="X5p-QR-xQy"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="mmWrapperTableViewCell" id="kfC-Xv-pTx">
+                                <rect key="frame" x="0.0" y="628" width="414" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kfC-Xv-pTx" id="fkc-MI-yzr">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Lmm-yz-4cz" id="yLZ-9d-DlB"/>
+                            <outlet property="delegate" destination="Lmm-yz-4cz" id="RWs-Wt-3L9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="soo-Dh-UDy"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oOX-YE-Nix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="1318"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cnE-SO-YBB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ZWo-e2-PL8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ads-dh-qWi">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RtZ-mv-vUg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tY0-4i-Npk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143" y="584"/>
+        </scene>
+        <!--Video View Controller-->
+        <scene sceneID="De1-e5-biE">
+            <objects>
+                <viewController id="Hpg-TO-uSk" customClass="VideoViewController" customModule="VoltaxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IQV-iO-lyk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nDW-sp-S17">
+                                <rect key="frame" x="20" y="347.66666666666669" width="374" height="210.66666666666669"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nDW-sp-S17" secondAttribute="height" multiplier="16:9" id="7ih-mi-Um9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Jj-lt-vzT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nDW-sp-S17" firstAttribute="leading" secondItem="3Jj-lt-vzT" secondAttribute="leading" constant="20" id="15b-5e-7vQ"/>
+                            <constraint firstItem="nDW-sp-S17" firstAttribute="centerY" secondItem="3Jj-lt-vzT" secondAttribute="centerY" id="HaL-4g-AYK"/>
+                            <constraint firstItem="3Jj-lt-vzT" firstAttribute="trailing" secondItem="nDW-sp-S17" secondAttribute="trailing" constant="20" id="vVq-PA-KSR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7nX-zW-4jS"/>
+                    <connections>
+                        <outlet property="mmVideoViewContainer" destination="nDW-sp-S17" id="veJ-oN-tRp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TwA-QR-ZTB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="-140"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="articleImage" width="240" height="135"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
