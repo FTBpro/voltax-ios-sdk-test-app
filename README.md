@@ -1,1 +1,1 @@
-# Voltax SDK Test App
+# Voltax iOS SDK Test App
