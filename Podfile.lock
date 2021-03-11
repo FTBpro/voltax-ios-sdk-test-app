@@ -1,16 +1,16 @@
 PODS:
-  - VoltaxSDK (1.0.5)
+  - VoltaxSDK (1.0.6)
 
 DEPENDENCIES:
-  - VoltaxSDK (= 1.0.5)
+  - VoltaxSDK (= 1.0.6)
 
 SPEC REPOS:
   trunk:
     - VoltaxSDK
 
 SPEC CHECKSUMS:
-  VoltaxSDK: 338c8162cd7fbe83b4793c07d9522ca6b6e029c9
+  VoltaxSDK: 3e00ba949302f62281cbe25c30e7b80aa4b5548e
 
-PODFILE CHECKSUM: af583e8970d1982b0b08f7255b7af96c10eb3d11
+PODFILE CHECKSUM: f391ccaebe52171e11589b69fcdf9aef952c79fc
 
 COCOAPODS: 1.10.1
