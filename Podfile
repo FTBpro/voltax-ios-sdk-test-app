@@ -4,7 +4,7 @@
 target 'VoltaxDemo' do
   use_frameworks!
   
-  pod 'VoltaxSDK', "=1.0.6"
+  pod 'VoltaxSDK', "=1.0.7"
 
   target 'VoltaxDemoTests' do
     inherit! :search_paths
