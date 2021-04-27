@@ -74,8 +74,8 @@ extension ArticleCollectionViewController {
     }
     
     func setupVideoView(containerView: UIView) {
-        let playerId = "01dnemrsc8vhsc1y4t" // or "01dnevbq6gva107mjc"
-        let contentId = "01en8ftr9pp38x78qa" // or "01ewfqp7dxa0egkh62" with read more
+        let playerId = "01dnevbq6gva107mjc"
+        let contentId = "01ewfqp7dxa0egkh62" // with read more
         self.mmVideoView = MMVideoView(playerId: playerId, contentId: contentId)
         self.mmVideoView?.delegate = self
         self.mmVideoView?.load(containerView)
@@ -110,4 +110,10 @@ extension ArticleCollectionViewController: MMVideoViewDelegate {
         self.mmVideoViewCellHeight = height
         self.collectionView.performBatchUpdates(nil, completion: nil)
     }
+    
+// handle click on url
+// if not implemented the url will be open in SFSafariViewController by the SDK
+//    func click(on url: URL) {
+//        // Do something
+//    }
 }
