@@ -1,18 +1,19 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'VoltaxDemo' do
-  use_frameworks!
+abstract_target 'Shared' do
+  # use_frameworks!
+  use_modular_headers!
   
-  pod 'VoltaxSDK', "=1.1.1"
+  pod 'GoogleAds-IMA-iOS-SDK', '~> 3.14'
+  
+  target 'VoltaxDemo-Dev'
+  
+  abstract_target 'DemoApps' do
+    
+    pod 'VoltaxSDK', "=1.2.0"
 
-  target 'VoltaxDemoTests' do
-    inherit! :search_paths
-    # Pods for testing
+    target 'VoltaxDemo'
+
   end
-
-  target 'VoltaxDemoUITests' do
-    # Pods for testing
-  end
-
 end

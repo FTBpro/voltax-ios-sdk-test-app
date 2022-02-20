@@ -13,6 +13,8 @@
 		161E365D25D94F0900754A53 /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E365B25D94F0800754A53 /* ArticleTableViewController.swift */; };
 		165FC9BD25BD9A160019C5D9 /* ArticleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FC9BC25BD9A160019C5D9 /* ArticleCollectionViewController.swift */; };
 		165FC9C525BD9C890019C5D9 /* ArticleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FC9BC25BD9A160019C5D9 /* ArticleCollectionViewController.swift */; };
+		166D993B2794626D000451CC /* MMIMAAdsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D99392794626D000451CC /* MMIMAAdsHandler.swift */; };
+		166D995527971B13000451CC /* MMIMAAdsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D99392794626D000451CC /* MMIMAAdsHandler.swift */; };
 		1679BE0125B4685D00DA176C /* Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F3EA8725B0787E009ECB91 /* Dev-Info.plist */; };
 		16F3E9A325B06F5E009ECB91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A225B06F5E009ECB91 /* AppDelegate.swift */; };
 		16F3E9A525B06F5E009ECB91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3E9A425B06F5E009ECB91 /* SceneDelegate.swift */; };
@@ -29,9 +31,8 @@
 		16F3EA3F25B0716E009ECB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9AB25B06F60009ECB91 /* Assets.xcassets */; };
 		16F3EA4025B0716E009ECB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3E9A825B06F5E009ECB91 /* Main.storyboard */; };
 		16F3EA4D25B071F7009ECB91 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F3EA4C25B071F6009ECB91 /* SystemConfiguration.framework */; };
-		1BB7E318457D44BB322EB888 /* Pods_VoltaxDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681273222042CA359AFAF01D /* Pods_VoltaxDemoTests.framework */; };
-		4DEAD113AA8FD28D7F40ED10 /* Pods_VoltaxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4053550F29AF893D327E46 /* Pods_VoltaxDemo.framework */; };
-		8239C40D3902296AE7951123 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324A4CBA9F22AF2AD11447B0 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework */; };
+		CE1E3B0C27A948C89728AA3B /* libPods-Shared-VoltaxDemo-Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC742093F0322A114A539E8F /* libPods-Shared-VoltaxDemo-Dev.a */; };
+		F0E07A3B2AA8580D6ADE4042 /* libPods-Shared-DemoApps-VoltaxDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C07095ED217CC36850127B24 /* libPods-Shared-DemoApps-VoltaxDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,9 +77,12 @@
 
 /* Begin PBXFileReference section */
 		0F3BCB854D5444988B80BC0B /* Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10DCD8D43A38E64D957459E2 /* Pods-Shared-DemoApps-VoltaxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-DemoApps-VoltaxDemo.release.xcconfig"; path = "Target Support Files/Pods-Shared-DemoApps-VoltaxDemo/Pods-Shared-DemoApps-VoltaxDemo.release.xcconfig"; sourceTree = "<group>"; };
 		161E35FF25C2BA5300754A53 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		161E365B25D94F0800754A53 /* ArticleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		165FC9BC25BD9A160019C5D9 /* ArticleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCollectionViewController.swift; sourceTree = "<group>"; };
+		166D993227941062000451CC /* libPods-Shared-VoltaxDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Shared-VoltaxDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166D99392794626D000451CC /* MMIMAAdsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMIMAAdsHandler.swift; sourceTree = "<group>"; };
 		16F3E99F25B06F5E009ECB91 /* VoltaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F3E9A225B06F5E009ECB91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F3E9A425B06F5E009ECB91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,14 +100,16 @@
 		16F3EA4625B0716E009ECB91 /* VoltaxDemo-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoltaxDemo-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F3EA4C25B071F6009ECB91 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		16F3EA8725B0787E009ECB91 /* Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dev-Info.plist"; sourceTree = "<group>"; };
-		324A4CBA9F22AF2AD11447B0 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltaxDemo_VoltaxDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BC3A5FCA6D932BCA3A0ABFB /* Pods-VoltaxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-VoltaxDemoTests/Pods-VoltaxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C88817F1C71F1C6455D3F47 /* Pods-VoltaxDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemoTests.release.xcconfig"; path = "Target Support Files/Pods-VoltaxDemoTests/Pods-VoltaxDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		681273222042CA359AFAF01D /* Pods_VoltaxDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltaxDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D4053550F29AF893D327E46 /* Pods_VoltaxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltaxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3994C3688C416ECCB19B678A /* Pods-Shared-VoltaxDemo-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-VoltaxDemo-Dev.release.xcconfig"; path = "Target Support Files/Pods-Shared-VoltaxDemo-Dev/Pods-Shared-VoltaxDemo-Dev.release.xcconfig"; sourceTree = "<group>"; };
+		54E9DE5DB8F222403E60BA8C /* Pods-Shared-VoltaxDemo-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-VoltaxDemo-Dev.debug.xcconfig"; path = "Target Support Files/Pods-Shared-VoltaxDemo-Dev/Pods-Shared-VoltaxDemo-Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		773709C89D4033FCB06F9E4C /* Pods-VoltaxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo.debug.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9BF5CCB51416D54EEF085501 /* Pods-VoltaxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo.release.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9C2EAD80694A29AE333486F2 /* Pods-Shared-DemoApps-VoltaxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-DemoApps-VoltaxDemo.debug.xcconfig"; path = "Target Support Files/Pods-Shared-DemoApps-VoltaxDemo/Pods-Shared-DemoApps-VoltaxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AC742093F0322A114A539E8F /* libPods-Shared-VoltaxDemo-Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-VoltaxDemo-Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE85757684C5A99ECA6C6BA3 /* Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C07095ED217CC36850127B24 /* libPods-Shared-DemoApps-VoltaxDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-DemoApps-VoltaxDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CFF237BF117931FC237BF5 /* Pods-Shared-VoltaxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-VoltaxDemo.debug.xcconfig"; path = "Target Support Files/Pods-Shared-VoltaxDemo/Pods-Shared-VoltaxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F53C80904E38BE17C035D71D /* Pods-Shared-VoltaxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-VoltaxDemo.release.xcconfig"; path = "Target Support Files/Pods-Shared-VoltaxDemo/Pods-Shared-VoltaxDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F3EA4D25B071F7009ECB91 /* SystemConfiguration.framework in Frameworks */,
-				4DEAD113AA8FD28D7F40ED10 /* Pods_VoltaxDemo.framework in Frameworks */,
+				F0E07A3B2AA8580D6ADE4042 /* libPods-Shared-DemoApps-VoltaxDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB7E318457D44BB322EB888 /* Pods_VoltaxDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +133,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8239C40D3902296AE7951123 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1E3B0C27A948C89728AA3B /* libPods-Shared-VoltaxDemo-Dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +155,14 @@
 				161E365B25D94F0800754A53 /* ArticleTableViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		166D99382794620F000451CC /* MMIMAAdsHandler */ = {
+			isa = PBXGroup;
+			children = (
+				166D99392794626D000451CC /* MMIMAAdsHandler.swift */,
+			);
+			path = MMIMAAdsHandler;
 			sourceTree = "<group>";
 		};
 		16F3E99625B06F5E009ECB91 = {
@@ -178,6 +191,7 @@
 		16F3E9A125B06F5E009ECB91 /* VoltaxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				166D99382794620F000451CC /* MMIMAAdsHandler */,
 				161E35F925C2B91C00754A53 /* ViewControllers */,
 				16F3EA8225B07809009ECB91 /* Resources */,
 				16F3E9A225B06F5E009ECB91 /* AppDelegate.swift */,
@@ -211,10 +225,10 @@
 		16F3EA2E25B070DD009ECB91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				166D993227941062000451CC /* libPods-Shared-VoltaxDemo.a */,
 				16F3EA4C25B071F6009ECB91 /* SystemConfiguration.framework */,
-				6D4053550F29AF893D327E46 /* Pods_VoltaxDemo.framework */,
-				324A4CBA9F22AF2AD11447B0 /* Pods_VoltaxDemo_VoltaxDemoUITests.framework */,
-				681273222042CA359AFAF01D /* Pods_VoltaxDemoTests.framework */,
+				C07095ED217CC36850127B24 /* libPods-Shared-DemoApps-VoltaxDemo.a */,
+				AC742093F0322A114A539E8F /* libPods-Shared-VoltaxDemo-Dev.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,8 +249,12 @@
 				9BF5CCB51416D54EEF085501 /* Pods-VoltaxDemo.release.xcconfig */,
 				BE85757684C5A99ECA6C6BA3 /* Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig */,
 				0F3BCB854D5444988B80BC0B /* Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig */,
-				4BC3A5FCA6D932BCA3A0ABFB /* Pods-VoltaxDemoTests.debug.xcconfig */,
-				5C88817F1C71F1C6455D3F47 /* Pods-VoltaxDemoTests.release.xcconfig */,
+				F2CFF237BF117931FC237BF5 /* Pods-Shared-VoltaxDemo.debug.xcconfig */,
+				F53C80904E38BE17C035D71D /* Pods-Shared-VoltaxDemo.release.xcconfig */,
+				9C2EAD80694A29AE333486F2 /* Pods-Shared-DemoApps-VoltaxDemo.debug.xcconfig */,
+				10DCD8D43A38E64D957459E2 /* Pods-Shared-DemoApps-VoltaxDemo.release.xcconfig */,
+				54E9DE5DB8F222403E60BA8C /* Pods-Shared-VoltaxDemo-Dev.debug.xcconfig */,
+				3994C3688C416ECCB19B678A /* Pods-Shared-VoltaxDemo-Dev.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -269,7 +287,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16F3E9CC25B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemoTests" */;
 			buildPhases = (
-				F039656F71A709B1EB7B59DF /* [CP] Check Pods Manifest.lock */,
 				16F3E9B125B06F60009ECB91 /* Sources */,
 				16F3E9B225B06F60009ECB91 /* Frameworks */,
 				16F3E9B325B06F60009ECB91 /* Resources */,
@@ -288,11 +305,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16F3E9CF25B06F60009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemoUITests" */;
 			buildPhases = (
-				4C53A7F70C2FCE96FAC06CE0 /* [CP] Check Pods Manifest.lock */,
 				16F3E9BC25B06F60009ECB91 /* Sources */,
 				16F3E9BD25B06F60009ECB91 /* Frameworks */,
 				16F3E9BE25B06F60009ECB91 /* Resources */,
-				51DF7F87F65103A5C4A38194 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,10 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16F3EA4325B0716E009ECB91 /* Build configuration list for PBXNativeTarget "VoltaxDemo-Dev" */;
 			buildPhases = (
+				5A90EFDA7D95A1FED401EABC /* [CP] Check Pods Manifest.lock */,
 				16F3EA3725B0716E009ECB91 /* Sources */,
 				16F3EA3B25B0716E009ECB91 /* Frameworks */,
 				16F3EA3D25B0716E009ECB91 /* Resources */,
 				16F3EA4125B0716E009ECB91 /* Embed Frameworks */,
+				4540F804CB9B5746885484DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -420,7 +437,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoltaxDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Shared-DemoApps-VoltaxDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -445,7 +462,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# https://stackoverflow.com/questions/46404236/failed-to-verify-bitcode-while-exporting-archive-for-ad-hoc-distribution-tried\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
 		};
-		4C53A7F70C2FCE96FAC06CE0 /* [CP] Check Pods Manifest.lock */ = {
+		4540F804CB9B5746885484DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shared-VoltaxDemo-Dev/Pods-Shared-VoltaxDemo-Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shared-VoltaxDemo-Dev/Pods-Shared-VoltaxDemo-Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shared-VoltaxDemo-Dev/Pods-Shared-VoltaxDemo-Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A90EFDA7D95A1FED401EABC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,28 +494,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoltaxDemo-VoltaxDemoUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Shared-VoltaxDemo-Dev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		51DF7F87F65103A5C4A38194 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo-VoltaxDemoUITests/Pods-VoltaxDemo-VoltaxDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECC06C44730FBBB2E1D1B2B4 /* [CP] Embed Pods Frameworks */ = {
@@ -490,37 +507,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Shared-DemoApps-VoltaxDemo/Pods-Shared-DemoApps-VoltaxDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Shared-DemoApps-VoltaxDemo/Pods-Shared-DemoApps-VoltaxDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoltaxDemo/Pods-VoltaxDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F039656F71A709B1EB7B59DF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoltaxDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shared-DemoApps-VoltaxDemo/Pods-Shared-DemoApps-VoltaxDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -536,6 +531,7 @@
 				161E360025C2BA5300754A53 /* VideoViewController.swift in Sources */,
 				161E365C25D94F0900754A53 /* ArticleTableViewController.swift in Sources */,
 				165FC9BD25BD9A160019C5D9 /* ArticleCollectionViewController.swift in Sources */,
+				166D995527971B13000451CC /* MMIMAAdsHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +561,7 @@
 				161E360125C2BA5300754A53 /* VideoViewController.swift in Sources */,
 				161E365D25D94F0900754A53 /* ArticleTableViewController.swift in Sources */,
 				165FC9C525BD9C890019C5D9 /* ArticleCollectionViewController.swift in Sources */,
+				166D993B2794626D000451CC /* MMIMAAdsHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,7 +720,7 @@
 		};
 		16F3E9CA25B06F60009ECB91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 773709C89D4033FCB06F9E4C /* Pods-VoltaxDemo.debug.xcconfig */;
+			baseConfigurationReference = 9C2EAD80694A29AE333486F2 /* Pods-Shared-DemoApps-VoltaxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -743,13 +740,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		16F3E9CB25B06F60009ECB91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BF5CCB51416D54EEF085501 /* Pods-VoltaxDemo.release.xcconfig */;
+			baseConfigurationReference = 10DCD8D43A38E64D957459E2 /* Pods-Shared-DemoApps-VoltaxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -768,13 +765,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.minutemedia.VoltaxDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		16F3E9CD25B06F60009ECB91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC3A5FCA6D932BCA3A0ABFB /* Pods-VoltaxDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -796,7 +792,6 @@
 		};
 		16F3E9CE25B06F60009ECB91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C88817F1C71F1C6455D3F47 /* Pods-VoltaxDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -818,7 +813,6 @@
 		};
 		16F3E9D025B06F60009ECB91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE85757684C5A99ECA6C6BA3 /* Pods-VoltaxDemo-VoltaxDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -838,7 +832,6 @@
 		};
 		16F3E9D125B06F60009ECB91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F3BCB854D5444988B80BC0B /* Pods-VoltaxDemo-VoltaxDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -858,6 +851,7 @@
 		};
 		16F3EA4425B0716E009ECB91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E9DE5DB8F222403E60BA8C /* Pods-Shared-VoltaxDemo-Dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -868,15 +862,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minutemedia.VoltaxDemoDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		16F3EA4525B0716E009ECB91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3994C3688C416ECCB19B678A /* Pods-Shared-VoltaxDemo-Dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -887,10 +882,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "minute-media.VoltaxDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minutemedia.VoltaxDemoDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

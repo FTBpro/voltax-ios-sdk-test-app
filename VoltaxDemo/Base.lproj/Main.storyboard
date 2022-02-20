@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZWo-e2-PL8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZWo-e2-PL8">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -200,7 +201,7 @@ The player's final ratings have not yet been disclosed, but you can be assured t
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageHeaderTableViewCell" id="ZS9-zm-TSb">
-                                <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZS9-zm-TSb" id="u1P-es-ybv">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
@@ -233,7 +234,7 @@ The player's final ratings have not yet been disclosed, but you can be assured t
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="textHeaderTableViewCell" id="j1D-2h-3F5">
-                                <rect key="frame" x="0.0" y="228" width="414" height="200"/>
+                                <rect key="frame" x="0.0" y="244.66666603088379" width="414" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j1D-2h-3F5" id="JtC-IL-gDM">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
@@ -267,7 +268,7 @@ Jan 22, 2021, 6:00 PM GMT</string>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="contentTableViewCell" id="0C2-ow-dFH">
-                                <rect key="frame" x="0.0" y="428" width="414" height="200"/>
+                                <rect key="frame" x="0.0" y="444.66666603088379" width="414" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0C2-ow-dFH" id="NCT-DD-YIG">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
@@ -293,7 +294,7 @@ The player's final ratings have not yet been disclosed, but you can be assured t
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="mmWrapperTableViewCell" id="kfC-Xv-pTx">
-                                <rect key="frame" x="0.0" y="628" width="414" height="200"/>
+                                <rect key="frame" x="0.0" y="644.66666603088379" width="414" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kfC-Xv-pTx" id="fkc-MI-yzr">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
@@ -340,23 +341,54 @@ The player's final ratings have not yet been disclosed, but you can be assured t
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nDW-sp-S17">
                                 <rect key="frame" x="20" y="369.66666666666669" width="374" height="210.66666666666669"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="nDW-sp-S17" secondAttribute="height" multiplier="16:9" id="7ih-mi-Um9"/>
                                 </constraints>
                             </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-CC-ms1">
+                                <rect key="frame" x="30" y="433.33333333333331" width="354" height="132.33333333333331"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player not yet loaded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhG-vI-UBN">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEo-4s-slz">
+                                        <rect key="frame" x="0.0" y="45.333333333333371" width="354" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Play"/>
+                                        <connections>
+                                            <action selector="playButtonClicked:" destination="Hpg-TO-uSk" eventType="touchUpInside" id="agA-Gz-Rz6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkh-YI-KfR">
+                                        <rect key="frame" x="0.0" y="101.33333333333331" width="354" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Pause"/>
+                                        <connections>
+                                            <action selector="pauseButtonClicked:" destination="Hpg-TO-uSk" eventType="touchUpInside" id="pq8-1u-Efe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Jj-lt-vzT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="nDW-sp-S17" firstAttribute="leading" secondItem="3Jj-lt-vzT" secondAttribute="leading" constant="20" id="15b-5e-7vQ"/>
-                            <constraint firstItem="nDW-sp-S17" firstAttribute="centerY" secondItem="3Jj-lt-vzT" secondAttribute="centerY" id="HaL-4g-AYK"/>
+                            <constraint firstItem="jWL-CC-ms1" firstAttribute="leading" secondItem="3Jj-lt-vzT" secondAttribute="leading" constant="30" id="4o4-fe-H7z"/>
+                            <constraint firstItem="jWL-CC-ms1" firstAttribute="top" secondItem="nDW-sp-S17" secondAttribute="bottom" constant="35" id="AJq-Bw-frs"/>
+                            <constraint firstItem="nDW-sp-S17" firstAttribute="top" secondItem="3Jj-lt-vzT" secondAttribute="top" constant="100" id="Ejf-1r-0jH"/>
+                            <constraint firstItem="3Jj-lt-vzT" firstAttribute="trailing" secondItem="jWL-CC-ms1" secondAttribute="trailing" constant="30" id="p7A-Vo-Kys"/>
                             <constraint firstItem="3Jj-lt-vzT" firstAttribute="trailing" secondItem="nDW-sp-S17" secondAttribute="trailing" constant="20" id="vVq-PA-KSR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7nX-zW-4jS"/>
                     <connections>
                         <outlet property="mmVideoViewContainer" destination="nDW-sp-S17" id="veJ-oN-tRp"/>
+                        <outlet property="statusLabel" destination="nhG-vI-UBN" id="1Fe-CY-v0Z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TwA-QR-ZTB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -366,9 +398,6 @@ The player's final ratings have not yet been disclosed, but you can be assured t
     </scenes>
     <resources>
         <image name="articleImage" width="240" height="135"/>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

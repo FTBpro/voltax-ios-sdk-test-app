@@ -19,6 +19,8 @@ class ArticleCollectionViewController: UICollectionViewController {
     var mmVideoView: MMVideoView? = nil
     var mmVideoViewCellHeight: CGFloat = 0;
     
+    fileprivate var handler: MMIMAAdsProvider?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -74,9 +76,12 @@ extension ArticleCollectionViewController {
     }
     
     func setupVideoView(containerView: UIView) {
-        let playerId = "01dnevbq6gva107mjc"
+        handler = MMIMAAdsHandler(vc: self)
+        
+        let playerId = "01fqtx7qpnayc5zbtw"
         let contentId = "01ewfqp7dxa0egkh62" // with read more
         self.mmVideoView = MMVideoView(playerId: playerId, contentId: contentId)
+        self.mmVideoView?.adsProvider = handler
         self.mmVideoView?.delegate = self
         self.mmVideoView?.load(containerView)
     }
