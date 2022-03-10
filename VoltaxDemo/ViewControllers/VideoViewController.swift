@@ -48,4 +48,11 @@ extension VideoViewController: MMVideoViewDelegate {
     func onPlayerLoaded() {
         statusLabel.text = "Player Loaded!"
     }
+    
+    func onPlayerError(_ error: MMVideoViewError) {
+        let message: String = error.message as String
+        let code: Int = error.code.intValue
+        let isFatalError = error.isFatalError
+        print("ERROR: " + message)
+    }
 }

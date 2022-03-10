@@ -11,7 +11,7 @@ abstract_target 'Shared' do
   
   abstract_target 'DemoApps' do
     
-    pod 'VoltaxSDK', "=1.2.0"
+    pod 'VoltaxSDK', "=1.2.1"
 
     target 'VoltaxDemo'
 
