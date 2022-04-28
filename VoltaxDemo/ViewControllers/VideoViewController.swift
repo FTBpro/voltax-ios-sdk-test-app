@@ -14,7 +14,7 @@ class VideoViewController: UIViewController {
     fileprivate var handler: MMIMAAdsProvider?
     
     lazy var mmVideoView: MMVideoView = {
-        let playerId = "01fqtx7qpnayc5zbtw" // or "01dnevbq6gva107mjc"
+        let playerId = "01fwe2qcd4jybh61se" // or "01dnevbq6gva107mjc"
         let contentId = "01en8ftr9pp38x78qa" // or "01dnevbq6gva107mjc"
         return MMVideoView(playerId: playerId, contentId: contentId)
     }()
